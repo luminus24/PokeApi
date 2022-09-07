@@ -1,0 +1,40 @@
+
+.home-img{
+    height: 60vh;
+    max-height: 250px;
+}
+#name{
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom:10px;
+    color: rgb(229, 226, 226);
+    background: transparent;
+}
+#name::placeholder {
+    color: white;
+}
+
+.home-button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: rgb(30, 168, 233);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    margin-top: 10px;
+}
+
+.home-text{
+    font-size: 30px;
+    color: white;
+}
