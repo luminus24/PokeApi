@@ -1,0 +1,60 @@
+
+.card{
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 370px;
+    background: #f0f0f0;
+    border-radius: 20px;
+    text-align: center;
+    flex-direction: column;
+    background-color: gray; /*Esto cambiar por el tipo del pokemon*/
+    margin: 20px 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.card-img{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 62% 38% 82% 18% / 42% 54% 46% 58% ;
+    height: 100px;
+    background-color: rgb(118, 95, 248);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.card-name{
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.card-types{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-transform: capitalize;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.card-stats{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+.info, .info-stat{
+    margin: 0;
+    margin-top: 10px;
+}
+
+
+
