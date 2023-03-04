@@ -19,7 +19,8 @@ const Pokedex = () => {
 	const nameTrainer = useSelector((state) => state.nameTrainer)
 
 	useEffect(() => {
-		axios.get(actualPokemons).then((res) => {
+		axios.get(actualPokemons)
+			.then(res => {
 			setPokemons(res.data)
 			setNextPokemons(res.data.next)
 			setPreviousPokemons(res.data.previous)
